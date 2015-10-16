@@ -1,0 +1,7 @@
+Email + DNS
+
+Email is one of the best or important communication mediums to date. We have become dependent on it and since it works so well, we have high expectations that it will work when we need it, always is there to help. But, how does it really work, and what if any role does DNS play in email. First as we discussed in the past, every communication on the Internet depends on DNS, including email. So let’s dig in to what we need to know about DNS and email.
+      When a user sends an email they are not actually sending the email directly to the recipient. They are, rather, asking their server to take the message and deliver it for them. Once the server accepts the message it tries to deliver it. Here is that happen, in the simplest manner, the server does. It looks at the envelope and finds the address of the recipient’s mailbox, for example jramone@bluecshushi.com. 
+    What does the server do? It needs to ask a second question of the DNS, please (servers are very polite) give me the IP address associated with the A record jramone@bluecshushi.com.(dot). In this example the result returned should be 70.120.44.51 – finally, an IP address - we can do something with that the mail server attempts to make a TCP/IP connection to 70.120.44.51 and does so using the SMTP protocol. If all goes well, we won’t get into SMTP details here; the receiving server accepts the message and, again in the simplest of examples, puts it in your mailbox.
+
+THANKS
