@@ -1,0 +1,9 @@
+#include  <stdio.h>
+# difene SUZI 2
+int main()
+{ 
+  *shart strings [size] =
+              {
+                       "string1",
+                       "string2",
+                };
